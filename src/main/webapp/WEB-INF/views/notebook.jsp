@@ -16,5 +16,12 @@ charset=UTF-8"
 		<h1>${headLine}</h1>
 		<p>${question}</p>
 	</div>
+
+	<div>
+		<form action="insertMemo" method="post">
+			메모 : <input id="memo" type="text" name="content">
+			<input type="submit" value="저장">
+		</form>
+	</div>
 </body>
 </html>
